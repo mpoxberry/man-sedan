@@ -9,7 +9,7 @@ public class ManSedanApplication {
     public static void main(String[] args) {
 	SpringApplication.run(ManSedanApplication.class, args);
 //	CSVFileReader.oneByOneExample();
-	CSVFileReader.oneByOnePOJO();
+//	CSVFileReader.oneByOnePOJO();
     }
 
 }
