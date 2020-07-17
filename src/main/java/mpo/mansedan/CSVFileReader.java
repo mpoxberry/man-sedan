@@ -44,7 +44,7 @@ public class CSVFileReader {
 //	System.out.println(oneByOne(reader).toString());
 	return oneByOneString(reader).toString();
     }
-    
+
     public static List<FillUp> oneByOnePOJO() {
 	Reader reader = null;
 
@@ -57,7 +57,7 @@ public class CSVFileReader {
 	    // TODO Auto-generated catch block
 	    e.printStackTrace();
 	}
-//	System.out.println(oneByOne(reader).toString());
+
 	return oneByOneBean(reader);
     }
 
@@ -101,11 +101,11 @@ public class CSVFileReader {
 		.build();
 
 	List<FillUp> fillUps = csvToBean.parse();
-	
-	for(FillUp fill : fillUps) {
+
+	for (FillUp fill : fillUps) {
 	    System.out.println(fill.toString());
 	}
-	
+
 	return fillUps;
     }
 }
