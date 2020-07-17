@@ -6,4 +6,13 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*"      
+        include:
+          - health
+          - metrics
+          - info
+  endpoint:
+    health:
+      show-details: always
+    metrics:
+      enabled: true
+    
