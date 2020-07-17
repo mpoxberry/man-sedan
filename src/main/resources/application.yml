@@ -1,4 +1,9 @@
 spring:
   application:
     name: man-sedan
-  
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"      
