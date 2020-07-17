@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>mpo.man-sedan</groupId>
 	<artifactId>man-sedan</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<name>man-sedan</name>
 	<description>man sedan</description>
 	<packaging>jar</packaging>

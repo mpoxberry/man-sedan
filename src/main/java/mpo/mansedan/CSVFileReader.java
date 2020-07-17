@@ -18,6 +18,8 @@ import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
 import com.opencsv.bean.HeaderColumnNameMappingStrategy;
 
+import mpo.mansedan.model.FillUp;
+
 public class CSVFileReader {
 
     public static Path toyotaCorrolaFile() throws URISyntaxException {

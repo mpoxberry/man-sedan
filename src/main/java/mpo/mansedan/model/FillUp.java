@@ -1,4 +1,4 @@
-package mpo.mansedan;
+package mpo.mansedan.model;
 
 import com.opencsv.bean.CsvBindByName;
 
